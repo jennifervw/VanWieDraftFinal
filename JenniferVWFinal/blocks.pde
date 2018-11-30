@@ -25,10 +25,10 @@ class Block {
     rect(x-300, y-50, 30, 300);
   }
 
-  boolean collided(float ballx, float bally, float ballradius){
+  boolean collided(float ballx, float bally, float ballradius) {
     // compare the ball's current position and its radius to
     // the boundaries of your block to see if collided
-    
+
     //if(the thing is collided)
     //{
     //  return true;
@@ -36,9 +36,8 @@ class Block {
     //else{
     //  return false; 
     //}
-    
+
     // placeholder
     return false;
-    
   }
 }
